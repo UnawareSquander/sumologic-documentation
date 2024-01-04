@@ -390,8 +390,16 @@ module.exports = {
           collapsed: true,
           link: {type: 'doc', id: 'send-data/kubernetes/index'},
           items: [
-            'send-data/kubernetes/helm-chart-overview',
-            'send-data/kubernetes/install-helm-chart',
+            {
+              type: 'category',
+              label: 'v4 (latest)',
+              collapsible: true,
+              collapsed: true,
+              items: [
+                'send-data/kubernetes/helm-chart-overview',
+                'send-data/kubernetes/install-helm-chart',
+              ],
+            },
             {
               type: 'category',
               label: 'v4 Upgrade Guide',
