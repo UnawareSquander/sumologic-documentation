@@ -80,7 +80,7 @@ In this section, we'll introduce the following concepts:
 <div className="box smallbox card">
   <div className="container">
   <a href="/docs/send-data/collection/processing-rules/metrics-include-and-exclude-rules"><img src={useBaseUrl('img/icons/operations/rules.png')} alt="icon" width="40"/><h4>Metrics Include and Exclude Rules</h4></a>
-  <p>Use metrics processing rules to specify what metrics a metrics source are sen to Sumo Logic.</p>
+  <p>Use metrics processing rules to specify what metrics a metrics source are sent to Sumo Logic.</p>
   </div>
 </div>
 </div>
